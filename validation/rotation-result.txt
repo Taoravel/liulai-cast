@@ -1,0 +1,2 @@
+INSTRUMENTATION_RESULT: result=PASS real H.264 replay: 3 portrait/landscape changes; same decoder instance; output dimensions correct; TikTok/iPhone live latency not measured
+INSTRUMENTATION_CODE: -1

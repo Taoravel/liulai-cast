@@ -1,0 +1,37 @@
+[
+  {
+    "stage": "cold start while asleep",
+    "awake": false,
+    "mdns": 0,
+    "dlna": false,
+    "wakeLock": false
+  },
+  {
+    "stage": "wake resumes discovery",
+    "awake": true,
+    "mdns": 3,
+    "dlna": true,
+    "wakeLock": true
+  },
+  {
+    "stage": "sleep withdraws discovery",
+    "awake": false,
+    "mdns": 0,
+    "dlna": false,
+    "wakeLock": false
+  },
+  {
+    "stage": "network reconnect while asleep stays silent",
+    "awake": false,
+    "mdns": 0,
+    "dlna": false,
+    "wakeLock": false
+  },
+  {
+    "stage": "second wake resumes discovery",
+    "awake": true,
+    "mdns": 3,
+    "dlna": true,
+    "wakeLock": true
+  }
+]

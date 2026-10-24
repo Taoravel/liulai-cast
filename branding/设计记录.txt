@@ -1,0 +1,12 @@
+榴来投屏 Logo 设计记录
+日期：2026-10-14
+工具：内置 image_gen 图像生成工具（未使用 API/CLI 回退）
+设计：深绿色背景，金黄色榴莲形屏幕、白色播放三角与无线投屏符号。
+图标不放文字，便于小尺寸辨认；电视启动图显示完整名称“榴来投屏”。
+应用内使用原画的缩小版本，并为 Android 自适应图标留出安全边距。
+
+Logo 最终生成提示词：
+Use case: logo-brand. Asset type: final Android app icon artwork for a Chinese screen-casting app named 榴来投屏. Create one square, polished, simple flat logo, not a mockup or presentation. Solid deep forest-green full-bleed background. Centered bold golden-yellow durian silhouette, with just a few large geometric spikes and a small green stem, cleverly merged with a rounded TV screen shape. A clean white play triangle in the fruit/screen center and a small unmistakable wireless-cast signal motif integrated in the lower-left corner. Minimal shapes, confident thick contours, strong small-size legibility, warm friendly personality, crisp vector-like finish. The main symbol fits within the central 60% of the canvas to survive round Android icon masking; generous clear margins. No lettering, no words, no numbers, no border, no watermark, no shadows, no texture, no phone/device mockup. Square 1024x1024 composition, edge-to-edge solid background.
+
+电视启动图最终生成提示词：
+Use case: logo-brand. Create a finished 16:9 landscape Android TV launcher banner for 榴来投屏, based on the reference app logo. Deep forest-green background matching the reference. On the left, use the same recognizable golden durian-shaped screen emblem with green stem, white play triangle and white wireless-cast arcs; preserve its visual identity. On the right, large, crisp white simplified-Chinese text exactly '榴来投屏', in a friendly bold modern sans-serif typeface. These are the only words. Strong contrast and simple shapes that stay readable when downscaled to 320x180. Center both elements vertically, leave spacious outer margins, keep every element inside the middle 85% of the frame. No mockup, no extra slogans, no English, no watermark. Composition must be 16:9 landscape.

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">榴来投屏</string>
+  <!-- Notification -->
+  <string name="notification_channel">榴来投屏接收服务</string>
+  <string name="notification_title">榴来投屏正在运行</string>
+  <string name="notification_text">等待投屏设备连接</string>
+  <string name="notification_pin_title">请输入 AirPlay 配对码</string>
+  <string name="notification_pin_text">配对码：%1$s</string>
+  <string name="stop_service">停止</string>
+  <!-- Tabs -->
+  <string name="tab_overview">首页</string>
+  <string name="tab_logs">日志</string>
+  <string name="tab_settings">设置</string>
+  <!-- Overview -->
+  <string name="server_stopped">投屏服务已停止</string>
+  <string name="waiting_for_connection">等待设备连接…</string>
+  <string name="error_starting_server">投屏服务启动失败</string>
+  <string name="connected_count">已连接 %d 台设备</string>
+  <string name="error_label">错误</string>
+  <string name="stopped_label">已停止</string>
+  <string name="btn_start">启动投屏</string>
+  <string name="btn_stop">停止投屏</string>
+  <string name="unknown_track">未知曲目</string>
+  <!-- Content descriptions -->
+  <string name="cd_pip">画中画</string>
+  <string name="cd_fullscreen">全屏</string>
+  <string name="cd_exit_fullscreen">退出全屏</string>
+  <string name="cd_cover_art">封面</string>
+  <string name="cd_previous">上一首</string>
+  <string name="cd_play_pause">播放／暂停</string>
+  <string name="cd_next">下一首</string>
+  <!-- Dialogs -->
+  <string name="dialog_pin_title">AirPlay 配对码</string>
+  <string name="dialog_audio_mode_title">音频模式</string>
+  <string name="dialog_audio_mode_text">切换到音频模式，显示曲目信息和播放控制按钮。</string>
+  <string name="btn_ok">确定</string>
+  <!-- Logs screen -->
+  <string name="btn_export">导出</string>
+  <string name="btn_clear">清空</string>
+  <!-- Settings sections -->
+  <string name="section_server">投屏服务</string>
+  <string name="section_connection">连接</string>
+  <string name="section_display">显示</string>
+  <string name="section_decode">解码</string>
+  <string name="section_developer">开发者设置</string>
+  <!-- Settings: Server -->
+  <string name="setting_server_name">投屏设备名称</string>
+  <string name="setting_server_name_desc">在手机的设备列表中显示的名称</string>
+  <string name="setting_server_port">服务端口</string>
+  <string name="setting_server_port_desc">AirPlay 接收服务使用的端口</string>
+  <string name="setting_auto_start">打开应用时自动启动投屏</string>
+  <string name="setting_auto_start_desc">打开应用后自动启动 AirPlay 接收服务</string>
+  <string name="setting_boot_auto_start">开机启动投屏</string>
+  <string name="setting_boot_auto_start_desc">设备开机后自动启动 AirPlay 接收服务</string>
+  <string name="section_appearance">外观</string>
+  <string name="setting_theme">主题</string>
+  <string name="setting_theme_desc">选择浅色、深色或跟随系统</string>
+  <string name="theme_system">跟随系统</string>
+  <string name="theme_light">浅色</string>
+  <string name="theme_dark">深色</string>
+  <string name="setting_mirror">接收安卓屏幕镜像</string>
+  <string name="setting_mirror_desc">允许安装本应用的安卓手机通过局域网投送屏幕。</string>
+  <string name="mirror_title">手机屏幕投到电视</string>
+  <string name="mirror_subtitle">手机和电视连接同一网络，电视打开本应用并启动接收，再选择电视开始投屏。Android 10 以上可投送允许录制的应用声音。</string>
+  <string name="mirror_searching">正在搜索电视，请确认电视已启动接收…</string>
+  <string name="mirror_connect">开始投屏</string>
+  <string name="mirror_active">正在投屏到 %1$s</string>
+  <string name="mirror_stop">停止投屏</string>
+  <string name="mirror_button">把手机屏幕投到电视</string>
+  <string name="mirror_channel">榴来投屏屏幕分享</string>
+  <string name="mirror_notif_title">榴来投屏正在分享屏幕</string>
+  <string name="mirror_notif_text">接收设备：%1$s</string>
+  <string name="setting_dlna">接收 DLNA 视频、音乐和照片</string>
+  <string name="setting_dlna_desc">允许支持 DLNA 的安卓播放器和 Windows 投送媒体文件；自动显示播放器需要悬浮显示权限。</string>
+  <string name="btn_save">保存</string>
+  <string name="btn_cancel">取消</string>
+  <string name="onboard_title">设置投屏权限</string>
+  <string name="onboard_desc">电视接收端可授予以下权限，以便在后台接收并自动显示画面。只用于手机发送时可跳过，权限也可稍后在系统设置中调整。</string>
+  <string name="onboard_notifications">允许通知</string>
+  <string name="onboard_overlay">允许显示在其他应用上层</string>
+  <string name="onboard_battery">允许持续后台运行</string>
+  <string name="onboard_done">完成／跳过</string>
+  <!-- Settings: Connection -->
+  <string name="setting_require_pin">连接时验证配对码（测试版）</string>
+  <string name="setting_require_pin_desc">每次建立新连接时需要输入四位配对码</string>
+  <string name="setting_allow_new_conn">允许新设备接入</string>
+  <string name="setting_allow_new_conn_desc">新设备连接时断开当前设备</string>
+  <!-- Settings: Display -->
+  <string name="setting_idle_preview">待机时显示视频区域</string>
+  <string name="setting_idle_preview_desc">等待连接时仍显示视频画面区域</string>
+  <string name="setting_auto_fullscreen">自动进入全屏</string>
+  <string name="setting_auto_fullscreen_desc">设备连接后自动全屏显示</string>
+  <string name="setting_auto_audio_mode">自动切换到音频模式</string>
+  <string name="setting_auto_audio_mode_desc">切换到音频模式时不再询问</string>
+  <string name="setting_launch_on_connect">连接时自动打开应用</string>
+  <string name="setting_launch_on_connect_desc">设备连接时自动显示投屏界面</string>
+  <string name="setting_launch_on_connect_no_permission">点击授予“显示在其他应用上层”权限</string>
+  <string name="setting_resolution">分辨率</string>
+  <string name="setting_resolution_desc">向发送设备提供的视频分辨率</string>
+  <string name="setting_resolution_placeholder">[宽]×[高]</string>
+  <string name="setting_resolution_auto">自动</string>
+  <string name="setting_resolution_width">宽度</string>
+  <string name="setting_resolution_height">高度</string>
+  <string name="setting_max_fps">最高帧率</string>
+  <string name="setting_max_fps_desc">向发送设备提供的最高视频帧率</string>
+  <string name="setting_max_fps_placeholder">帧／秒</string>
+  <string name="setting_overscanned">过扫描适配</string>
+  <string name="setting_overscanned_desc">为使用全屏过扫描的显示器添加像素边界</string>
+  <string name="chip_custom">自定义</string>
+  <!-- Settings: Decode -->
+  <string name="setting_h265">H.265（HEVC）</string>
+  <string name="setting_h265_desc">设备支持时启用 H.265 视频解码</string>
+  <string name="setting_enforce_sdr">强制使用 SDR 色彩</string>
+  <string name="setting_enforce_sdr_desc">将视频标记为有限范围 SDR；关闭后允许 HDR 信号传递</string>
+  <string name="setting_alac">ALAC 音频</string>
+  <string name="setting_alac_desc">接收 AirPlay 音乐使用的 ALAC 编码</string>
+  <string name="setting_sw_alac">ALAC 软件解码</string>
+  <string name="setting_sw_alac_desc">设备没有可用的 ALAC 解码器时使用内置软件解码器</string>
+  <string name="setting_aac">AAC 音频</string>
+  <string name="setting_aac_desc">接收屏幕镜像声音使用的 AAC-ELD 或 AAC-LC 编码</string>
+  <!-- Settings: Developer -->
+  <string name="setting_developer_options">开发者选项</string>
+  <string name="setting_developer_options_desc">显示供高级用户使用的选项</string>
+  <string name="setting_key_allow_frame_drop">允许解码器丢帧</string>
+  <string name="setting_key_allow_frame_drop_desc">Android 10 及以上允许视频解码器丢弃帧以跟上播放速度</string>
+  <string name="setting_realtime_decoder_priority">音频解码实时优先级</string>
+  <string name="setting_realtime_decoder_priority_desc">请求系统实时调度音频解码器</string>
+  <string name="setting_operating_rate_hint">视频解码器运行速率</string>
+  <string name="setting_operating_rate_hint_desc">请求视频解码器以最高运行速率工作</string>
+  <string name="setting_scheduled_output_buffer_release">对齐画面刷新时机</string>
+  <string name="setting_scheduled_output_buffer_release_desc">按每帧的显示时间戳，安排在对应的屏幕刷新时机输出</string>
+  <string name="setting_audio_delay">自定义音频延迟</string>
+  <string name="setting_audio_delay_desc">设置向发送设备报告的音频延迟</string>
+  <string name="audio_delay_value">%d毫秒</string>
+  <string name="setting_audio_buffer_multiplier">音频缓冲大小</string>
+  <string name="setting_audio_buffer_multiplier_desc">音频输出缓冲区的倍数</string>
+  <string name="setting_audio_buffer_multiplier_value">%d倍</string>
+  <string name="setting_debug_overlay">显示调试信息</string>
+  <string name="setting_debug_overlay_desc">在画面上显示编码、帧率、码率、波动、帧数和丢帧数</string>
+  <string name="setting_benchmark_log">启用调试日志</string>
+  <string name="setting_benchmark_log_desc">将编码、帧率、码率、波动、帧数和丢帧数写入系统日志</string>
+  <string name="mirror_receive_mode">将此设备作为接收端</string>
+  <string name="mirror_receiver_address">安卓手机手动连接地址：%1$s</string>
+  <string name="mirror_background_settings">小米／OPPO 后台运行设置</string>
+  <string name="mirror_compat_hint">声音投送需要 Android 10 以上和音频权限，仅支持允许录制的应用声音。小米／OPPO 若切换应用后中断，请允许本应用后台运行。</string>
+  <string name="mirror_failed">投屏连接失败或已断开。请确认电视已启动接收、两端在同一网络，然后重试。</string>
+  <string name="mirror_manual_host">电视上的 IP 地址（搜不到时使用）</string>
+</resources>
